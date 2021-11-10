@@ -1,0 +1,12 @@
+n=int(input())
+a=n
+x=0
+l=len(str(n))
+while n>0:
+    rem=n%10
+    n=n//10
+    x+=rem**1
+if a==x:
+    print(a,'is armstrong')
+else:
+    print(a,'is not armstrong')
